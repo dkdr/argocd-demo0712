@@ -531,7 +531,7 @@ server:
     # This will enable/disable registering a PodDisruptionBudget for the server
     # cluster. If this is enabled, it will only register the budget so long as
     # the server cluster is enabled.
-    enabled: true
+    enabled: false
 
     # The maximum number of unavailable pods. By default, this will be
     # automatically computed based on the `server.replicas` value to be `(n/2)-1`.
